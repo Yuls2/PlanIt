@@ -1,0 +1,24 @@
+{
+  "userID": "testUserId",
+  "groupID": 1,
+  "groupName": "중간고사 공부방",
+  "userGoal": "중간고사 대박나장!",
+  "checkItem": [
+    {
+      "checkID": 1,
+      "type": 0,
+      "day": 70,
+      "title": "인공지능 녹강 보기",
+      "isChecked": false,
+      "priority": 5
+    },
+    {
+      "checkID": 2,
+      "type": 1,
+      "date": "2022-11-12",
+      "title": "데이터통신 녹강 보기",
+      "isChecked": true,
+      "priority": 5
+    }
+  ]
+}

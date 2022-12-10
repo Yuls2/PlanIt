@@ -1,0 +1,164 @@
+[
+  {
+    "postID": 0,
+    "userID": "UserID",
+    "userName": "테스트 유저명",
+    "groupID": 1,
+    "groupName": "중간고사 공부방",
+    "userGoal": "1학년 2학기 중간고사!",
+    "imageURL": "/testdata/testimage1.jpg",
+    "comment": "오늘은 열심히 코딩 공부를 했다아",
+    "date": "2022-11-12",
+    "waterNum": 10,
+    "checkItem": [
+      {
+        "checkID": 21,
+        "type": 0,
+        "day": 70,
+        "title": "기프 실습 리뷰하기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 102,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "이산구조 녹강 보기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 302,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 거시기 하기",
+        "isChecked": false,
+        "priority": 5
+      },
+      {
+        "checkID": 303,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 거시기 하기2",
+        "isChecked": true,
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "postID": 1,
+    "userID": "UserID",
+    "userName": "테스트 유저2",
+    "groupID": 1,
+    "groupName": "중간고사 공부방",
+    "userGoal": "목표는 1등",
+    "imageURL": "/testdata/testimage2.jpg",
+    "comment": "바빠서 뭐뭐 이러쿵 저러쿵",
+    "date": "2022-11-12",
+    "waterNum": 7,
+    "checkItem": [
+      {
+        "checkID": 31,
+        "type": 0,
+        "day": 70,
+        "title": "소공 과제 끝내기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 102,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "데통 연습문제 풀기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 402,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할일3",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 603,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할 일 4",
+        "isChecked": false,
+        "priority": 5
+      },
+      {
+        "checkID": 405,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할 일 5",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 408,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할 일 6",
+        "isChecked": false,
+        "priority": 5
+      },
+      {
+        "checkID": 413,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할 일입니다",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 414,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "대충 할 일입니다2",
+        "isChecked": true,
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "postID": 3,
+    "userID": "UserID",
+    "userName": "크크루삥빵",
+    "groupID": 3,
+    "groupName": "테스트 그룹임",
+    "userGoal": "이것은 내 목표임",
+    "imageURL": "/testdata/testimage3.jpg",
+    "comment": "에라이씨 두 와츄워너두",
+    "date": "2022-11-12",
+    "waterNum": 4,
+    "checkItem": [
+      {
+        "checkID": 27,
+        "type": 0,
+        "day": 70,
+        "title": "노래방 가서 마마무 노래 부르기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 142,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "마마무 노래 한 곡 외우기",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 322,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "마마무 안무 외우기",
+        "isChecked": true,
+        "priority": 5
+      }
+    ]
+  }
+]

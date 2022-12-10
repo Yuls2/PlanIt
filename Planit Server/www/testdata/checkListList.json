@@ -1,0 +1,90 @@
+[
+  {
+    "userID": "testUserId",
+    "groupID": 1,
+    "groupName": "테스트용 그룹1",
+    "userGoal": "중간고사 대박나장!",
+    "checkItem": [
+      {
+        "checkID": 1,
+        "type": 0,
+        "day": 65,
+        "title": "인공지능 녹강 보기",
+        "isChecked": false,
+        "priority": 5
+      },
+      {
+        "checkID": 2,
+        "type": 1,
+        "date": "2022-11-15",
+        "title": "데이터통신 녹강 보기",
+        "isChecked": true,
+        "priority": 5
+      }
+    ]
+  },
+  {
+    "userID": "testUserId",
+    "groupID": 2,
+    "groupName": "테스트용 그룹",
+    "userGoal": "테스트 제발 돼라",
+    "checkItem": [
+      {
+        "checkID": 3,
+        "type": 0,
+        "day": 9,
+        "title": "안뇽 나는 할 일 1이얌",
+        "isChecked": false,
+        "priority": 5
+      },
+      {
+        "checkID": 4,
+        "type": 1,
+        "date": "2022-11-15",
+        "title": "안뇽 나는 할 일 2 ㅋㅋ",
+        "isChecked": true,
+        "priority": 5
+      },
+      {
+        "checkID": 5,
+        "type": 1,
+        "date": "2022-11-15",
+        "title": "할 일이 많아야 스크롤을 테스트하지",
+        "isChecked": false,
+        "priority": 2
+      },
+      {
+        "checkID": 6,
+        "type": 1,
+        "date": "2022-11-15",
+        "title": "할 일이 많아야 스크롤을 테스트하지2",
+        "isChecked": false,
+        "priority": 2
+      },
+      {
+        "checkID": 7,
+        "type": 0,
+        "date": 0,
+        "title": "할 일이 많아야 스크롤 테스트를 하지3",
+        "isChecked": false,
+        "priority": 2
+      },
+      {
+        "checkID": 8,
+        "type": 0,
+        "date": 61,
+        "title": "할 일 많아야 스크롤 테스트 하지4",
+        "isChecked": false,
+        "priority": 2
+      },
+      {
+        "checkID": 9,
+        "type": 1,
+        "date": "2022-11-12",
+        "title": "일낼라 해 일낼라일라이예",
+        "isChecked": false,
+        "priority": 2
+      }
+    ]
+  }
+]

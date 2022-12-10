@@ -1,0 +1,225 @@
+{
+  "0": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "1": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": true
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": true
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "2": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "3": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "4": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "5": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "6": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "7": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "8": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ],
+  "9": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "10": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "11": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "12": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": true
+    },
+    {
+      "index": 2,
+      "name": "img_plant_2",
+      "isSingle": false
+    }
+  ],
+  "13": [
+    {
+      "index": 0,
+      "name": "img_plant_1",
+      "isSingle": false
+    },
+    {
+      "index": 1,
+      "name": "img_plant_2",
+      "isSingle": false
+    },
+    {
+      "index": 2,
+      "name": "img_plant_3",
+      "isSingle": true
+    }
+  ]
+}
