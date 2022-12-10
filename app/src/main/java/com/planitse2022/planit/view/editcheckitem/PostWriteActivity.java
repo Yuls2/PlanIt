@@ -141,12 +141,12 @@ public class PostWriteActivity extends AppCompatActivity {
 
                     @Override
                     public void onActivityResult(ActivityResult result) {
-                        if(result.getResultCode() == RESULT_OK && result.getData() != null){
+                        if(result.getResultCode() == RESULT_OK){
                             Bitmap bitmap = null;
 
-                            Intent intent = result.getData();
                             Uri uri = null;
-                            if(intent.getData() != null){
+                            if(result.getData() != null && result.getData().getData() != null) {
+                                Intent intent = result.getData();
                                 uri = intent.getData();
                             }
                             else {
