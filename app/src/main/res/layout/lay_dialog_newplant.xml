@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_round_white_line"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        android:text="플래닛에 식물을 심으세요!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_title_tp2" />
+    <TextView
+        android:id="@+id/dialog_tv_content"
+        android:text="앗! 아직 이 플래닛에 심은 식물이 없군요!\n새로 심을 식물의 이름을 입력하세요!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="50dp"
+        style="@style/tv_title_s2"/>
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp">
+        <include layout="@layout/lay_plant"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginBottom="40dp"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/dialog_plant_lay"/>
+    </LinearLayout>
+
+    <ViewSwitcher
+        android:id="@+id/dialog_switch_plant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/dialog_edt_plantname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="식물의 이름은?"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            android:id="@+id/dialog_btn_cancel"
+            android:text="그냥 새로운 식물을 심을래요!"
+            android:layout_marginBottom="20dp"
+            style="@style/btn_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </ViewSwitcher>
+
+    <Button
+        android:id="@+id/dialog_btn_select"
+        android:text="보관함에서 기르던 식물을 가져온다"
+        android:layout_marginBottom="10dp"
+        style="@style/btn_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dialog_btn_ok"
+        android:text="이 식물을 심는다"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

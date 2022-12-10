@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.PlanIt" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/pi_purple</item>
+        <item name="colorPrimaryVariant">@color/pi_purple_deep</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/pi_title</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/pi_purple</item>
+        <item name = "android:windowBackground">@color/white</item>
+        <!-- Customize your theme here. -->
+        <item name="android:textViewStyle">@style/piTextViewStyle</item>
+        <item name="android:buttonStyle">@style/piButtonStyle</item>
+        <item name="editTextStyle">@style/piEditTextStyle</item>
+        <item name="android:radioButtonStyle">@style/piRadioButtonStyle</item>
+        <item name="android:checkboxStyle">@style/piCheckBoxStyle</item>
+        
+        <item name="android:ambientShadowAlpha">0</item>
+        <item name="android:spotShadowAlpha">0.1</item>
+    </style>
+</resources>

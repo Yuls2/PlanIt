@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/toolbar_subpage" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.test.TestActivity">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플래닛 title1"
+            style="@style/tv_title_t1"
+            android:layout_margin="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플래닛 title2"
+            style="@style/tv_title_t2"
+            android:layout_margin="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플래닛 title3"
+            style="@style/tv_title_t3"
+            android:layout_margin="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플래닛 sub1"
+            style="@style/tv_title_s1"
+            android:layout_margin="2dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="플래닛 sub2"
+            style="@style/tv_title_s2"
+            android:layout_margin="2dp" />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="테스트 안녕하세요"
+            android:layout_margin="10dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="테스트 안녕하세요"
+            android:layout_margin="10dp"/>
+        <Button
+            android:id="@+id/btn_test"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요잇"
+            android:layout_margin="10dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="안녕하세요잇"
+            style="@style/btn_line"
+            android:layout_margin="10dp"/>
+            <include layout="@layout/lay_checkbox" />
+            <include layout="@layout/lay_checklist_summary" />
+            <include layout="@layout/lay_postitem" />
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

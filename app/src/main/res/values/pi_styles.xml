@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+<!--    각 뷰별 스타일-->
+    <style name="piTextViewStyle" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/pi_font_family</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="piEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:fontFamily">@font/pi_font_family</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/edt_textcolor</item>
+        <item name="android:background">@drawable/back_edt_fill</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+        <item name="android:textColorHint">@color/pi_hint</item>
+    </style>
+
+    <style name="piButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:fontFamily">@font/pi_font_family</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:background">@drawable/back_btn_fill</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:textColor">@color/btn_textcolor</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:paddingLeft">15dp</item>
+        <item name="android:paddingRight">15dp</item>
+    </style>
+
+    <style name="piCheckBoxStyle" parent="Widget.AppCompat.CompoundButton.CheckBox">
+        <item name="android:fontFamily">@font/pi_font_family</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="piRadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="android:fontFamily">@font/pi_font_family</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="btn_line">
+        <item name="android:background">@drawable/back_btn_line</item>
+        <item name="android:textColor">@color/linebtn_textcolor</item>
+    </style>
+
+<!--    타이틀 텍스트-->
+    <style name="tv_title_t1">
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@color/pi_title</item>
+    </style>
+    <style name="tv_title_t2" parent="tv_title_t1">
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+    <style name="tv_title_t3" parent="tv_title_t1">
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+        <item name="android:textSize">15dp</item>
+    </style>
+<!--    서브 텍스트-->
+    <style name="tv_title_s1">
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/pi_sub</item>
+    </style>
+    <style name="tv_title_s2" parent="tv_title_s1">
+        <item name="android:textSize">12dp</item>
+    </style>
+<!--    보라색 텍스트-->
+    <style name="tv_title_tp1" parent="tv_title_t1">
+        <item name="android:textColor">@color/pi_purple</item>
+    </style>
+    <style name="tv_title_tp2" parent="tv_title_t2">
+        <item name="android:textColor">@color/pi_purple</item>
+    </style>
+    <style name="tv_title_tp3" parent="tv_title_t3">
+        <item name="android:textColor">@color/pi_purple</item>
+    </style>
+    <style name="tv_title_sp1" parent="tv_title_s1">
+        <item name="android:textColor">@color/pi_purple</item>
+    </style>
+    <style name="tv_title_sp2" parent="tv_title_s2">
+        <item name="android:textColor">@color/pi_purple</item>
+    </style>
+
+    <style name="dateDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/pi_purple</item>
+        <item name="android:colorAccent">@color/pi_purple</item>
+    </style>
+
+    <style name="dialogFadeout">
+        <item name="android:windowEnterAnimation">@null</item>
+        <item name="android:windowExitAnimation">@anim/anim_fadeout</item>
+    </style>
+</resources>

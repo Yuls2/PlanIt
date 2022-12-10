@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.planitse2022.planit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_planit"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_planit_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.PlanIt">
+        <activity
+            android:name="com.planitse2022.planit.IntroductionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.GroupDeleteActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.EditMemberNumberActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.GroupEditActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.SelectGroupBackgroundActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.GroupManageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.GroupRequestListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.plantkeeper.SelectPlantFromKeeperActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.plantkeeper.PlantKeeperActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.group.MemberDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.group.GroupDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.InitActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.GroupSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editgroup.MemberManageActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editcheckitem.PostWriteActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editcheckitem.EditCheckListActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.group.GroupActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.planitse2022.planit.view.editcheckitem.WriteCheckItemActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.planitse2022.planit.view.test.TestActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.planitse2022.planit.view.main.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.planitse2022.planit.view.main.NoticeActivity"
+            android:exported="true" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.planitse2022.planit.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_path" />
+        </provider>
+    </application>
+
+</manifest>

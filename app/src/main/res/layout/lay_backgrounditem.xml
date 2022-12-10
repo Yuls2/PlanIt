@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back_postitem"
+    android:padding="10dp">
+    <ImageView
+        android:id="@+id/back_img_background"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="10dp"/>
+    <TextView
+        android:id="@+id/back_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="배경 아이템 이름"
+        style="@style/tv_title_t3"/>
+    <TextView
+        android:id="@+id/back_tv_score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        tools:text="요구 플래닛 포인트: 1000점 이상"
+        style="@style/tv_title_sp2"/>
+</LinearLayout>

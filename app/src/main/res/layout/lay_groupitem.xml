@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/back_round_white_line"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp">
+    <TextView
+        android:id="@+id/group_tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/tv_title_tp2"
+        android:maxLines="1"
+        tools:text="그룹명 자리"/>
+
+    <TextView
+        android:id="@+id/group_tv_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        style="@style/tv_title_s2"
+        android:maxLines="2"
+        tools:text="그룹에 대한 설명"/>
+    <LinearLayout
+        android:id="@+id/group_lay_mygoal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="@drawable/back_round_white_line">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/tv_title_sp2"
+            android:textFontWeight="700"
+            android:text="내 목표" />
+
+        <TextView
+            android:id="@+id/group_tv_mygoal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            style="@style/tv_title_s2"
+            android:maxLines="1"
+            tools:text="그룹 내 나의 목표"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="14dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:gravity="right">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/ic_icon_groupscore"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/group_tv_score"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="40dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            style="@style/tv_title_t3"
+            android:textSize="10dp"
+            tools:text="133,204"/>
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_icon_user_sel"
+            android:layout_marginTop="1dp"
+            android:layout_gravity="center_vertical"/>
+        <TextView
+            android:id="@+id/group_tv_membernum"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:minWidth="30dp"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            style="@style/tv_title_t3"
+            android:textSize="10dp"
+            tools:text="34/60"/>
+    </LinearLayout>
+</LinearLayout>

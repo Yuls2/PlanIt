@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="20dp"
+    android:orientation="vertical"
+    android:background="@drawable/back_postitem">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/notice_tv_name"
+            style="@style/tv_title_tp2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="5dp"
+            tools:text="닉네임" />
+        <TextView
+            android:id="@+id/notice_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="님이 OO식물에 물을 주었습니다!"
+            android:layout_marginBottom="5dp"
+            style="@style/tv_title_t3"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/notice_tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="2022-12-04 11시 12분"
+        style="@style/tv_title_s2"/>
+</LinearLayout>

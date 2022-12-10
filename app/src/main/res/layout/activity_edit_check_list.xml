@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pi_back"
+    tools:context=".view.editcheckitem.EditCheckListActivity">
+
+    <include layout="@layout/toolbar_subpage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="300dp"
+        android:background="@drawable/back_round_white_top"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <!--            그룹 내 오늘의 목표-->
+        <ViewSwitcher
+            android:id="@+id/switch_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+            <LinearLayout
+                android:id="@+id/lay_goalname_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:orientation="horizontal">
+                <TextView
+                    android:id="@+id/tv_goalname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="목표 이름"
+                    style="@style/tv_title_t1"/>
+                <ImageView
+                    android:id="@+id/img_goalname_edit"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/ic_icon_edit" />
+            </LinearLayout> <!-- 타이틀 -->
+
+            <EditText
+                android:id="@+id/edt_goalname_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:imeOptions="actionSearch"/>
+        </ViewSwitcher>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/back_postitem"
+                android:orientation="vertical"
+                android:padding="20dp"
+                android:layout_marginBottom="20dp"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/lay_buttons"
+                app:layout_constraintBottom_toTopOf="@+id/lay_buttons">
+                <ListView
+                    android:id="@+id/list_checklist"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    android:dividerHeight="0.5dp"
+                    android:divider="@color/pi_line"
+                    android:nestedScrollingEnabled="true"
+                    android:listSelector="@android:color/transparent"
+                    android:scrollbarStyle="outsideInset"
+                    android:scrollbarSize="@dimen/cardview_default_radius"
+                    android:scrollbarThumbVertical="@color/pi_purple"
+                    tools:listitem="@layout/lay_edit_checkitem" />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/lay_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <Button
+                    android:id="@+id/btn_add_checkitem"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:text="할 일 추가하기"
+                    style="@style/btn_line"/>
+                <Button
+                    android:id="@+id/btn_complete"
+                    android:layout_width="match_parent"
+                    android:layout_height="37dp"
+                    android:layout_marginTop="10dp"
+                    android:text="편집 완료"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+
+    <include layout="@layout/lay_dialog_progress"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

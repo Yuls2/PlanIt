@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:enterFadeDuration="400"
+    android:exitFadeDuration="400">
+    <item android:color="@color/pi_disabled" android:state_enabled="false"/>
+    <item android:color="@color/white" android:state_pressed="true"/>
+    <item android:color="@color/pi_purple"/>
+</selector>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_round_white_line"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        tools:text="다이얼로그 제목 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_title_tp2" />
+    <TextView
+        android:id="@+id/dialog_tv_content"
+        tools:text="다이얼로그 내용 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:minHeight="50dp"
+        style="@style/tv_title_s2"/>
+    <LinearLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/dialog_btn_one"
+            android:text="취소"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            style="@style/btn_line"/>
+        <Button
+            android:id="@+id/dialog_btn_two"
+            android:text="확인"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

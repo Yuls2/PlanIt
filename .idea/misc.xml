@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/back_btn_fill.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/back_btn_ine.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/back_btn_line.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/back_circle.xml" value="0.3525" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/back_round_gray_left.xml" value="0.156" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.223" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable-v24/icon_water.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_checkbox.xml" value="0.4675" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_checkbox_day.xml" value="0.3255" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_edt_fill.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_navi.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_postitem.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_round_gray.xml" value="0.391" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_round_white.xml" value="0.4675" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_round_white_line.xml" value="0.367" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_round_white_top.xml" value="0.377" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/back_toolbar.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/dot_slider.xml" value="0.1345" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/dot_slider_selected.xml" value="0.1345" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/dot_slider_unselected.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/draw_checkbox.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_check.xml" value="0.547" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_check_off_to_on.xml" value="0.355" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_checklist_sel.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_delete.xml" value="0.223" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_edit.xml" value="0.341" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_leader_black.xml" value="0.279" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_notice.xml" value="0.1725" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_planet.xml" value="0.223" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_planit.xml" value="0.547" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_icon_setting.xml" value="0.279" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_calander.xml" value="0.547" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_check_off.xml" value="0.547" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_check_off_to_on.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_check_on.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_check_on_to_off.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_img_goback.xml" value="0.339" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/ic_launcher_background.xml" value="0.223" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/icon_checklist.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/icon_home.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/icon_member.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/icon_planet.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/drawable/icon_user.xml" value="0.515" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/font/pi_font_family.xml" value="0.21770833333333334" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_edit_check_list.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_edit_member_number.xml" value="0.2689969604863222" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group.xml" value="0.3765625" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group_delete.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group_detail.xml" value="0.4116847826086957" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group_edit.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group_manage.xml" value="0.5536458333333333" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_group_search.xml" value="0.27702702702702703" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_init.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_introduction.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_login.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_main.xml" value="0.29775280898876405" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_member_detail.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_one_list.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_plant_keeper.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_post_write.xml" value="0.35728952772073924" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_register.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_select_group_background.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_test.xml" value="0.47291666666666665" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/activity_write_check_item.xml" value="0.17757009345794392" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_checklist.xml" value="0.44936708860759494" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_group_home.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_group_member.xml" value="0.47878128400435255" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_group_post.xml" value="0.2696629213483146" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_intro_item.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_main.xml" value="0.25372498935717325" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_memberlist.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_my_planet.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/fragment_mypage.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_backgrounditem.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_checkbox.xml" value="0.37202380952380953" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_checklist_summary.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_animation.xml" value="0.3796875" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_calander.xml" value="0.389945652173913" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_calender.xml" value="0.3894927536231884" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_group.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_newPlant.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_newplant.xml" value="0.20238095238095238" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_one_edt.xml" value="0.22676579925650558" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_onebtn.xml" value="0.36367753623188404" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_progress.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_request_group.xml" value="0.2712765957446808" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialog_twobtn.xml" value="0.2625" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_dialogbase.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_edit_checkitem.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_group_manage_category.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_group_manageitem.xml" value="0.5" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_group_requestitem.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_groupitem.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_memberitem.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_noticeitem.xml" value="0.40902872777017785" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_plant.xml" value="0.25" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_plantitem.xml" value="0.25962512664640325" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_plantwindow.xml" value="0.25962512664640325" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_post_checkbox.xml" value="0.3576341127922971" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/lay_postitem.xml" value="0.48148148148148145" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/toolbar_main.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/toolbar_mainpage.xml" value="0.33" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/layout/toolbar_subpage.xml" value="0.20623501199040767" />
+        <entry key="..\:/Users/Yul2/AndroidStudioProjects/PlanIt/app/src/main/res/xml/file_path.xml" value="0.1887031408308004" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

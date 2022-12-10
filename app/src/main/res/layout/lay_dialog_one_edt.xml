@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_round_white_line"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        android:text="플래닛 가입 신청"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_title_tp2" />
+    <TextView
+        android:id="@+id/dialog_tv_content"
+        tools:text="가입 신청 메세지를 적어주세요.\n플래닛 관리자가 참고하는 내용입니다!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        style="@style/tv_title_s2"/>
+
+    <EditText
+        android:id="@+id/dialog_edt"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textSize="10dp"
+        android:inputType="textMultiLine"
+        android:maxLines="10"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/dialog_btn_close"
+            android:text="취소"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            style="@style/btn_line"/>
+        <Button
+            android:id="@+id/dialog_btn_complete"
+            android:text="작성 완료"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pi_back"
+    tools:context=".view.editcheckitem.PostWriteActivity">
+
+    <include layout="@layout/toolbar_subpage"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="300dp"
+        android:background="@drawable/back_round_white_top"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/lay_buttons"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:src="@drawable/ic_icon_planet_delete"
+                        android:layout_gravity="center_vertical"
+                        app:tint="@color/pi_title" />
+                    <TextView
+                        style="@style/tv_title_t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="플래닛 삭제" />
+                </LinearLayout> <!-- 타이틀 -->
+                <TextView
+                    android:text="플래닛 삭제는 신중하게 선택하세요!\n한 번 삭제된 플래닛은 다시 복구할 수 없습니다."
+                    style="@style/tv_title_sp1"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>
+                <TextView
+                    android:text="※ 플래닛 삭제는 플래닛에 멤버가 플래닛의 관리자 한 명만 남아있을 때 가능합니다."
+                    style="@style/tv_title_s1"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"/>
+                <TextView
+                    android:text="※ 플래닛에서 기르던 식물은 보관함으로 이동합니다."
+                    style="@style/tv_title_s1"
+                    android:gravity="left"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/tv_auto_accept"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="플래닛 삭제 시 복구가 불가능 함을 인지하였습니다."
+                        style="@style/tv_title_s1"/>
+                    <CheckBox
+                        android:id="@+id/ch_agree"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:button="@drawable/back_checkbox"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:checked="false"
+                        style="@style/piCheckBoxStyle" />
+                </LinearLayout>
+                <Button
+                    android:id="@+id/btn_delete_planet"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:text="플래닛을 삭제합니다"/>
+            </LinearLayout>
+            <!--        하단 버튼-->
+
+            <LinearLayout
+                android:id="@+id/lay_buttons"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintBottom_toBottomOf="parent">
+                <Button
+                    android:id="@+id/btn_cancel"
+                    android:text="취소"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    style="@style/btn_line"/>
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

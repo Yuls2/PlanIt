@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_round_white_line"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        tools:text="다이얼로그 제목 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_title_tp2" />
+    <DatePicker
+        android:id="@+id/dialog_datepicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:headerBackground="@color/pi_purple"
+        style="@style/dateDialogStyle"
+        android:layout_marginTop="20dp" />
+    <LinearLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/dialog_btn_cancel"
+            android:text="취소"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            style="@style/btn_line"/>
+        <Button
+            android:id="@+id/dialog_btn_ok"
+            android:text="선택"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

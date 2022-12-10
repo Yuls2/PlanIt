@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="350dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/back_round_white_line"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/dialog_tv_title"
+        tools:text="다이얼로그 제목 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/tv_title_tp2" />
+    <TextView
+        android:id="@+id/dialog_tv_content"
+        tools:text="다이얼로그 내용 입력"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="3"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        style="@style/tv_title_s2"/>
+    <include layout="@layout/lay_plantwindow"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/back_round_gray"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:layout_marginBottom="15dp">
+        <TextView
+            android:id="@+id/dialog_tv_group_rule"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/tv_title_s2"
+            tools:text="규칙 테스트 텍스트\n테스트 텍스트"/>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="right"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_icon_groupscore" />
+
+        <TextView
+            android:id="@+id/dialog_tv_score"
+            style="@style/tv_title_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:minWidth="40dp"
+            android:textSize="10dp"
+            tools:text="133,204" />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="1dp"
+            android:src="@drawable/ic_icon_user_sel" />
+
+        <TextView
+            android:id="@+id/dialog_tv_membernum"
+            style="@style/tv_title_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:gravity="center"
+            android:minWidth="30dp"
+            android:textSize="10dp"
+            tools:text="34/60" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lay_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/dialog_btn_close"
+            android:text="닫기"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginRight="5dp"
+            style="@style/btn_line"/>
+        <Button
+            android:id="@+id/dialog_btn_join"
+            android:text="가입 신청"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+
+</LinearLayout>

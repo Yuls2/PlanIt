@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pi_back"
+    android:orientation="vertical"
+    tools:context=".view.editcheckitem.WriteCheckItemActivity">
+
+    <include layout="@layout/toolbar_subpage" />
+<!--    해당 그룹, 목표 디스플레이-->
+    <TextView
+        android:id="@+id/tv_groupname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        tools:text="그룹명이 들어갈 자리"
+        android:gravity="center"
+        style="@style/tv_title_sp1"/>
+    <TextView
+        android:id="@+id/tv_goalname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        tools:text="목표명이 들어갈 자리"
+        android:gravity="center"
+        style="@style/tv_title_t1"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back_round_white_top"
+        android:padding="20dp">
+        <LinearLayout
+            android:id="@+id/lay_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2"
+            app:layout_constraintBottom_toBottomOf="parent">
+            <Button
+                android:id="@+id/btn_cancel"
+                android:text="취소"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginRight="5dp"
+                style="@style/btn_line"/>
+            <Button
+                android:id="@+id/btn_complete"
+                android:text="저장"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginLeft="5dp"/>
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toStartOf="@id/lay_buttons"
+            app:layout_constraintBottom_toTopOf="@id/lay_buttons"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent">
+        <!--        날짜 표시-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="수행할 날짜 또는 요일 선택"
+                    style="@style/tv_title_t1"/>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp">
+
+                    <ImageView
+                        android:id="@+id/img_calender"
+                        android:layout_width="17dp"
+                        android:layout_height="17dp"
+                        android:src="@drawable/ic_icon_calander"
+                        app:layout_constraintRight_toRightOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                    <TextView
+                        android:id="@+id/tv_seldate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        style="@style/tv_title_s2"
+                        tools:text="매주 월, 화, 수"
+                        app:layout_constraintLeft_toLeftOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintBottom_toBottomOf="parent"/>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+        <!--        요일 선택-->
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp">
+                    <RelativeLayout
+                        android:id="@+id/lay_day_sun"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_mon"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_sun"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+                        <TextView
+                            android:id="@+id/tv_day_sun"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="일"
+                            android:textSize="12dp"
+                            android:labelFor="@id/chk_day_sun"
+                            android:textColor="@color/daycheckbox_textcolor"/>
+
+                    </RelativeLayout> <!-- 일요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_mon"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_sun"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_tue"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_mon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+
+                        <TextView
+                            android:id="@+id/tv_day_mon"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="월"
+                            android:labelFor="@id/chk_day_mon"
+                            android:textColor="@color/daycheckbox_textcolor"
+                            android:textSize="12dp" />
+                    </RelativeLayout> <!-- 월요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_tue"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_mon"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_wed"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_tue"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+
+                        <TextView
+                            android:id="@+id/tv_day_tue"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:labelFor="@id/chk_day_tue"
+                            android:text="화"
+                            android:textColor="@color/daycheckbox_textcolor"
+                            android:textSize="12dp" />
+                    </RelativeLayout> <!-- 화요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_wed"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_tue"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_thu"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_wed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+                        <TextView
+                            android:id="@+id/tv_day_wed"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="수"
+                            android:textSize="12dp"
+                            android:labelFor="@id/chk_day_wed"
+                            android:textColor="@color/daycheckbox_textcolor"/>
+                    </RelativeLayout> <!-- 수요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_thu"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_wed"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_fri"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_thu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+                        <TextView
+                            android:id="@+id/tv_day_thu"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="목"
+                            android:textSize="12dp"
+                            android:labelFor="@id/chk_day_thu"
+                            android:textColor="@color/daycheckbox_textcolor"/>
+                    </RelativeLayout> <!-- 목요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_fri"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_thu"
+                        app:layout_constraintRight_toLeftOf="@+id/lay_day_sat"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_fri"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+                        <TextView
+                            android:id="@+id/tv_day_fri"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="금"
+                            android:textSize="12dp"
+                            android:labelFor="@id/chk_day_fri"
+                            android:textColor="@color/daycheckbox_textcolor" />
+                    </RelativeLayout> <!-- 금요일 -->
+                    <RelativeLayout
+                        android:id="@+id/lay_day_sat"
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:layout_constraintLeft_toRightOf="@+id/lay_day_fri"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+                        <CheckBox
+                            android:id="@+id/chk_day_sat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:button="@null"
+                            android:background="@drawable/back_checkbox_day"/>
+                        <TextView
+                            android:id="@+id/tv_day_sat"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center"
+                            android:text="토"
+                            android:textSize="12dp"
+                            android:labelFor="@id/chk_day_sat"
+                            android:textColor="@color/daycheckbox_textcolor"/>
+                    </RelativeLayout> <!-- 토요일 -->
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <!--        이름 입력-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="할 일의 제목을 입력"
+                    android:layout_marginTop="40dp"
+                    style="@style/tv_title_t1"/>
+                <EditText
+                    android:id="@+id/edt_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"/>
+
+                <!--        중요도 입력-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="할 일의 중요도"
+                    android:layout_marginTop="40dp"
+                    style="@style/tv_title_t1"/>
+
+                <SeekBar
+                    android:id="@+id/seek_priority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:max="5"
+                    android:min="1"
+                    android:progress="3"
+                    android:progressTint="@color/pi_purple"
+                    android:thumbTint="@color/pi_purple"/>
+                <TextView
+                    android:id="@+id/tv_priority"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="보통"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    style="@style/tv_title_sp1"/>
+                <Button
+                    android:id="@+id/btn_delete"
+                    android:text="할 일 삭제"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:visibility="gone"
+                    style="@style/btn_line"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

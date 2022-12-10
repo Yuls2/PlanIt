@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pi_back"
+    tools:context=".view.group.GroupDetailActivity">
+
+    <include layout="@layout/toolbar_subpage"/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="300dp"
+        android:background="@drawable/back_round_white_top"
+        android:layout_marginTop="20dp"
+        android:padding="20dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintBottom_toTopOf="@+id/lay_buttons"
+                android:layout_marginBottom="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/tv_group_name"
+                        style="@style/tv_title_t1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:layout_marginLeft="8dp"
+                        tools:text="그룹 이름" />
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/tv_group_comment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    tools:text="그룹에 대한 설명을 여기에"
+                    android:layout_marginBottom="20dp"
+                    style="@style/tv_title_s1"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="20dp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="17dp"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_icon_check" />
+
+                    <TextView
+                        style="@style/tv_title_t1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="우리 플래닛의 규칙은!" />
+                </LinearLayout> <!-- 타이틀 -->
+                <TextView
+                    android:id="@+id/tv_group_rule"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/back_edt_fill"
+                    android:padding="20dp"
+                    style="@style/tv_title_s1"
+                    tools:text="테스트 텍스트\n안녕하세요오옹"/>
+            </LinearLayout>
+        </ScrollView>
+        <include layout="@layout/lay_dialog_progress"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
